@@ -5,9 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Fira Code:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
-
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
@@ -46,7 +45,7 @@ int allowaltscreen = 1;
 /* allow certain non-interactive (insecure) window operations such as:
    setting the clipboard text */
 int allowwindowops = 0;
-
+ 
 /*
  * draw latency range in ms - from new content/keypress/etc until drawing.
  * within this range, st draws when content stops arriving (idle). mostly it's
