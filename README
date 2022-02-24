@@ -3,7 +3,6 @@ st - simple terminal
 st is a simple terminal emulator for X which sucks less.
 
 
-
 Installation
 ------------
 Edit config.mk to match your local setup (st is installed into
@@ -11,8 +10,11 @@ the /usr/local namespace by default).
 
 Installing st on Arch Linux
 All you need to do is to download the PKGBUILD from this repository.  Then run the following command:
+
 makepkg -cf
+
 This will create a file that ends in .pkg.tar.zst (for example, st-git-6.2-1-x86_64.pkg.tar.zst).  Then run:
+
 sudo pacman -U *.pkg.tar.zst
 
 Afterwards enter the following command to build and install st (if
